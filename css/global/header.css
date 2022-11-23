@@ -13,7 +13,7 @@
 }
 
 .header-menu {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -35,7 +35,7 @@
   transition: .3s ;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after, .header-menu a.ativo::after {
   width: 100%;
 }
 
